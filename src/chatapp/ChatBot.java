@@ -73,7 +73,7 @@ public class ChatBot {
             return new Message(BOT_NAME, ranked);
         }
 
-        /* ---------- TIME (FORMATTED ✔) ---------- */
+        /* ---------- TIME ---------- */
         if (text.contains("time")) {
             String timeReply = " Current time: " +
                     LocalDateTime.now().format(TIME_FORMAT);
@@ -170,7 +170,7 @@ public class ChatBot {
                     "❌ Use format: learn: question = answer");
 
         knowledgeBase.put(preprocess(parts[0]), parts[1].trim());
-        return new Message(BOT_NAME, "✅ Learned successfully!");
+        return new Message(BOT_NAME, " Learned successfully!");
     }
 
     /* ================= FUZZY MATCH ================= */
