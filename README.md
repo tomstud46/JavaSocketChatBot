@@ -1,7 +1,7 @@
 # Java Smart ChatBot Application (Console-Based)
 
 ## Project Overview
-This project is a **Java-based ChatBot system** built using **Socket Programming**, **multi-threading**, and **MySQL (JDBC)**.  
+This project is a **Java-based ChatBot system** built using **Socket Programming**, **multi-threading**, **MySQL (JDBC)**,**java collections**.  
 
 It allows **multiple clients** to connect to a server and interact with an **intelligent, context-aware chatbot** via the console.  
 
